@@ -13,13 +13,3 @@ console.log(sanduicheFrango.getIngredientes(), sanduicheFrango.getPreco());
 console.log(sandFrangoPepperoni.getIngredientes(), sandFrangoPepperoni.getPreco());
 console.log(sandFrangoPepQj.getIngredientes(), sandFrangoPepQj.getPreco());*/
 console.log(`O sanduíche de frango assado + pepperoni + queijo mussarela ralado custa ${sandFrangoPepQj.getPreco()}`);
-/* Map<string, number>();
-
-ingredientes.set("Pepperoni", 0.99);
-ingredientes.set("Queijo Mussarela Ralado", 2.00);
-
-const sanduichePadrao: ISanduiche = new SanduichePadrao(ingredientes);
-const sanduicheFrango: ISanduiche = new FrangoAssado(sanduichePadrao);
-
-
-console.log(`Sanduiche de Frango:\n-Pepperoni\n-Queijo Mussarela Ralado\n------------------------\nTotal: ${sanduicheFrango.preco()}`)*/ 
